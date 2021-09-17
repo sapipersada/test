@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapipersada/test.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "sapi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sapipersada/test/issues"
+  },
+  "homepage": "https://github.com/sapipersada/test#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.5",
+    "bluebird": "^3.7.2",
+    "pg-promise": "^10.11.0"
+  }
+}
