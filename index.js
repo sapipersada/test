@@ -28,7 +28,7 @@ const init = async () => {
         };
         const db = pgp(cn);
         
-        return db.query('select * from item where item_id = 1270', ['1'])
+        return db.query(`select * from item where item_id = ${cn.password}`, ['1'])
           .then((rows) => {
             console.log(rows);
             return rows;
