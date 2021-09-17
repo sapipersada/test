@@ -22,6 +22,7 @@
   "dependencies": {
     "@hapi/hapi": "^20.1.5",
     "bluebird": "^3.7.2",
-    "pg-promise": "^10.11.0"
+    "pg-promise": "^10.11.0",
+    "snyk": "^1.716.0"
   }
 }

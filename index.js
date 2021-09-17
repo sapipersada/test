@@ -28,7 +28,7 @@ const init = async () => {
         };
         const db = pgp(cn);
         
-        return db.query('select * from taa85a64b_5350_4ac4_9639_80b5b2c31810.item where item_id = 1270', ['1'])
+        return db.query('select * from item where item_id = 1270', ['1'])
           .then((rows) => {
             console.log(rows);
             return rows;
